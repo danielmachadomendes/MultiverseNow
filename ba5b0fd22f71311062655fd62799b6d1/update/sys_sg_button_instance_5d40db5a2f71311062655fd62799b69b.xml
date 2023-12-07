@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (User)">4140db5a2f71311062655fd62799b670</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (User)</name>
+        <order/>
+        <parent>e4409b5a2f71311062655fd62799b6bf</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 23:02:41</sys_created_on>
+        <sys_id>5d40db5a2f71311062655fd62799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (User)</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sys_sg_button_instance_5d40db5a2f71311062655fd62799b69b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 23:02:41</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d40db5a2f71311062655fd62799b69b"/>
+</record_update>

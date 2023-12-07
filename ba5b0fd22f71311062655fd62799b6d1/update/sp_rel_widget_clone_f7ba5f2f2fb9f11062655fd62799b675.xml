@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="MultiverseNow Knowledge Notification">3bba1fab2fb9f11062655fd62799b637</child>
+        <cloned>2023-10-16 21:00:52</cloned>
+        <last_validated>2023-10-16 21:00:52</last_validated>
+        <parent display_value="Knowledge Notification Entry">2d09c11467953200d358bb2d07415a5c</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.$on("$destroy", function () {
+		$('.kb_user_subs_pref').remove();
+  });
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;kb-notification-entry&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope) {
+	if(scope.data.show_menu_entry &amp;&amp; !$('.kb_user_subs_pref')[0] &amp;&amp; $("a[ng-href*='id=actsub_notif_pref']").length ==0) {
+		$('#sp-nav-bar ul li.hidden-xs.dropdown ul.dropdown-menu li:first').after('&lt;li class="kb_user_subs_pref"&gt;&lt;a role="link" href="?id=actsub_notif_pref&amp;sysparm_domain_restore=false&amp;sysparm_stack=no"&gt;${Notification Settings}&lt;/a&gt;&lt;/li&gt;');
+		$('#sp-nav-bar ul li.visible-xs-block:first').after('&lt;li class="visible-xs-block kb_user_subs_pref"&gt;&lt;a role="link" href="?id=actsub_notif_pref&amp;sysparm_domain_restore=false&amp;sysparm_stack=no"&gt;${Notification Settings}&lt;/a&gt;&lt;/li&gt;');
+	}
+}]]&gt;&lt;/link&gt;&lt;name&gt;Knowledge Notification Entry&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	if(input)
+		return;
+	else {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.show_menu_entry = false;
+	data.portal_suffix = $sp.getPortalRecord().getValue('url_suffix');
+	data.redirect_url_property = gs.getProperty('sn_km_portal.glide.knowman.serviceportal.portal_url');
+	data.knowledge_advanced_enabled = GlidePluginManager.isActive("com.snc.knowledge_advanced");
+	data.show_menu_entry = ((data.redirect_url_property == data.portal_suffix) || (data.portal_suffix == 'sp')) &amp;&amp; data.knowledge_advanced_enabled;
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-02-28 09:19:20&lt;/sys_created_on&gt;&lt;sys_id&gt;2d09c11467953200d358bb2d07415a5c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Notification Entry&lt;/sys_name&gt;&lt;sys_package display_value="Knowledge Management - Service Portal" source="sn_km_portal"&gt;bab6dea3db20320099f93691f0b8f590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Knowledge Management - Service Portal"&gt;bab6dea3db20320099f93691f0b8f590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_2d09c11467953200d358bb2d07415a5c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-13 06:28:22&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 21:00:52</sys_created_on>
+        <sys_id>f7ba5f2f2fb9f11062655fd62799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3bba1fab2fb9f11062655fd62799b637</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_f7ba5f2f2fb9f11062655fd62799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 21:00:52</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ad4ef562fb5311062655fd62799b6eb" label="Role Playing Game Sources" max_length="40" name="x_903520_rpg_role_playing_game_sources" type="collection">
+        <element label="Code" max_length="9" name="code" type="string"/>
+        <element label="Description" max_length="1024" name="description" type="string"/>
+        <element display="true" label="Source" max_length="254" name="source" type="string"/>
+        <element label="URL" max_length="254" name="url" type="url"/>
+    </element>
+</database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="MultiverseNow Portal ">07e52c8b2f71311062655fd62799b63d</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 23:57:30</sys_created_on>
+        <sys_id>21993ad72ff1b11062655fd62799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MultiverseNow Portal .Employee</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_21993ad72ff1b11062655fd62799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 23:57:30</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</application>
+        <file_path/>
+        <instance_id>13e69defdb22ddd842b321c4059619e0</instance_id>
+        <instance_name>dev141910</instance_name>
+        <name>m2m_sp_portal_taxonomy_21993ad72ff1b11062655fd62799b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy"><m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sp_portal display_value="MultiverseNow Portal ">07e52c8b2f71311062655fd62799b63d</sp_portal><sys_class_name>m2m_sp_portal_taxonomy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-15 23:57:30</sys_created_on><sys_id>21993ad72ff1b11062655fd62799b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MultiverseNow Portal .Employee</sys_name><sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package><sys_policy/><sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope><sys_update_name>m2m_sp_portal_taxonomy_21993ad72ff1b11062655fd62799b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-15 23:57:30</sys_updated_on><taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy></m2m_sp_portal_taxonomy></record_update>]]></payload>
+        <payload_hash>1357108421</payload_hash>
+        <record_name>MultiverseNow Portal .Employee</record_name>
+        <reverted_from/>
+        <source>7e5b0fd22f71311062655fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 23:57:30</sys_created_on>
+        <sys_id>6d993ad72ff1b11062655fd62799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b35c5fff40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 23:57:30</sys_updated_on>
+        <type>Portal Taxonomy</type>
+        <update_guid>a1993ad70cf1b1100c5515a17cb6f41e</update_guid>
+        <update_guid_history>a1993ad70cf1b1100c5515a17cb6f41e:1357108421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MultiverseNow Portal .Employee">f44afa1b2ff1b11062655fd62799b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 00:00:28</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_taxonomy">m2m_sp_portal_taxonomy</sys_db_object>
+        <sys_id>0f033c12e7da4db69fd10a1ea8c58d91</sys_id>
+        <sys_metadata>21993ad72ff1b11062655fd62799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MultiverseNow Portal .Employee</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_scope_delete display_value="">9430b02c5a5e44e69daf0c2ab3fbef51</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_taxonomy_21993ad72ff1b11062655fd62799b61c</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_taxonomy_21993ad72ff1b11062655fd62799b61c">6d993ad72ff1b11062655fd62799b61e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 00:00:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

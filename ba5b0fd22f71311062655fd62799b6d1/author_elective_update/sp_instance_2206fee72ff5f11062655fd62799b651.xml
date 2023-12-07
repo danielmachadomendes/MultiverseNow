@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2e06fee72ff5f11062655fd62799b64e</sp_column>
+        <sp_widget display_value="Knowledge Breadcrumbs">851b8947db20320099f93691f0b8f5ea</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:29</sys_created_on>
+        <sys_id>2206fee72ff5f11062655fd62799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_instance_2206fee72ff5f11062655fd62799b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:29</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2206fee72ff5f11062655fd62799b651"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</application>
+        <file_path/>
+        <instance_id>13e69defdb22ddd842b321c4059619e0</instance_id>
+        <instance_name>dev141910</instance_name>
+        <name>sp_instance_2206fee72ff5f11062655fd62799b651</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>0</order><roles/><short_description/><size>md</size><sp_column display_value="1">2e06fee72ff5f11062655fd62799b64e</sp_column><sp_widget display_value="Knowledge Breadcrumbs">851b8947db20320099f93691f0b8f5ea</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-16 18:20:29</sys_created_on><sys_id>2206fee72ff5f11062655fd62799b651</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package><sys_policy/><sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope><sys_update_name>sp_instance_2206fee72ff5f11062655fd62799b651</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-16 18:20:29</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2206fee72ff5f11062655fd62799b651"/></record_update>]]></payload>
+        <payload_hash>-583571956</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7e5b0fd22f71311062655fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:29</sys_created_on>
+        <sys_id>a2063a2b2ff5f11062655fd62799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b39b7cf320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:29</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e6063a2bc6f5f110f6ccf9e1d0e8481d</update_guid>
+        <update_guid_history>e6063a2bc6f5f110f6ccf9e1d0e8481d:-583571956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">934676ab2ff5f11062655fd62799b68e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:21:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>25b313fe3c0942bcb41ae10158fbf624</sys_id>
+        <sys_metadata>2206fee72ff5f11062655fd62799b651</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_scope_delete display_value="">9430b02c5a5e44e69daf0c2ab3fbef51</sys_scope_delete>
+        <sys_update_name>sp_instance_2206fee72ff5f11062655fd62799b651</sys_update_name>
+        <sys_update_version display_value="sp_instance_2206fee72ff5f11062655fd62799b651">a2063a2b2ff5f11062655fd62799b61e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:21:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

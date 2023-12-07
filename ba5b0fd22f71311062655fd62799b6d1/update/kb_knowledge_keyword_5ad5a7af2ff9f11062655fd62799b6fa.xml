@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_keyword">
+    <kb_knowledge_keyword action="INSERT_OR_UPDATE">
+        <keywords>84f5efaf2ff9f11062655fd62799b622,22f52baf2ff9f11062655fd62799b622,78062baf2ff9f11062655fd62799b66f,720663ef2ff9f11062655fd62799b6fb,c1162baf2ff9f11062655fd62799b69a,3f1663ef2ff9f11062655fd62799b674</keywords>
+        <knowledge display_value="KB0010001 v2.0">21c3acc72f71311062655fd62799b6cc</knowledge>
+        <sys_class_name>kb_knowledge_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 21:50:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ad5a7af2ff9f11062655fd62799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>kb_knowledge_keyword_5ad5a7af2ff9f11062655fd62799b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 21:50:39</sys_updated_on>
+    </kb_knowledge_keyword>
+</record_update>

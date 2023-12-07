@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($location, spAriaFocusManager, spUtil) {
+
+	var c = this;
+	c.options.glyph = c.options.glyph || 'search';
+	c.options.title = c.options.title || "${Welcome to Knowledge}";
+	c.keyword = "";
+	
+	c.submitSearch = function() {
+		if(!((!c.data.allow_empty_search && c.keyword == "") || (c.keyword && c.keyword.length < c.data.min_search_char))) {		
+			var url= $location.search({
+				id: 'kb_search',
+				query: c.keyword
+			});	
+
+			spAriaFocusManager.navigateToLink(url.url());
+		}
+		else if(c.keyword && c.keyword.length < c.data.min_search_char) 
+			spUtil.addInfoMessage(c.data.messages.MIN_CHARS_REQUIRED);
+	};
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cm-main-search {
+  color: $sp-tagline-color;
+
+  .cm-welcome-msg {
+    h2 {
+      font-size: 36px;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .cm-search-box {  
+    .input-group {
+      max-width: 578px;
+      margin: 0 auto;
+    }
+    .input-group input[name="query"] {
+      height: 42px;
+      border: 1.2px solid $input-border;
+      border-radius: 4.8px 0 0 4.8px;
+      padding-left: 8px;
+      padding-right: 8px;
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+    .input-group input[name="query"]:focus {
+      outline: 5px auto $input-border-focus;
+    }
+    ::placeholder {
+      font-size: 16px;
+      line-height: 25px;
+    }
+    :-ms-input-placeholder {
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .input-group .input-group-btn &gt; button {
+      height: 42px;
+      min-width: 48px;
+      border: 1.2px solid $input-border;
+      border-radius: 0 4.8px 4.8px 0;
+      padding: 0;
+    }
+  }
+
+  .cm-community-summary {
+    text-align: center;
+
+    ul{
+      padding:0px;
+    }
+    .summary {
+      font-size: 18px;
+      display: inline-block;
+      text-align: center;
+      padding: 20px 30px 0px;
+      margin-top: 4px;
+      margin-bottom: 0px;
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,glyph,css</field_list>
+        <has_preview>false</has_preview>
+        <id>mvn_kb_homepage_search</id>
+        <internal>false</internal>
+        <link><![CDATA[function(scope,element,attr){
+	var c = scope.c;
+	function openedInIframe () {
+		if(window.parent && window.parent.location.pathname == '/gtb.do' )
+			return false;
+		try {
+			return (window.opener && window.opener.document.getElementById("section_form_id") != null && c.data.sysparm_kb_search_table);
+		} catch (e) {
+			return false;
+		}
+	}
+	
+	if(openedInIframe())
+		$("header nav").css("display","none");
+		
+	if(scope.data.set_foccus)
+		setTimeout(function(){
+			element.find('input[name=query]').focus();
+		},0);
+}]]></link>
+        <name>MultiverseNow Knowledge Homepage Search</name>
+        <option_schema>[{"hint":"Placeholder text for search","name":"placeholder","default_value":"","label":"Search Placeholder","type":"string"},{"hint":"Allow search with empty or blank string in search box (Default to system property : glide.knowman.allow_empty_search)","name":"allow_empty_search","default_value":"Use system property","label":"Allow Empty Search","type":"choice","choices":[{"label":"Yes","value":"Yes"},{"label":"No","value":"No"},{"label":"Use system property","value":"Use system property"}]},{"hint":"Minimum number of characters for search (Default to system property : glide.knowman.search_character_limit)","name":"min_search_char","label":"Minimum Number of Characters for Search","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if(input) 
+		return;
+	else {
+	data.instanceid = $sp.getDisplayValue("sys_id");
+
+	data.sysparm_kb_search_table = $sp.getParameter('sysparm_kb_search_table');
+	//options will be given precedence if value exit
+	data.set_foccus = gs.getProperty('glide.knowman.portal_search_focus') == 'true' || false;
+	data.min_search_char = parseInt(options.min_search_char || gs.getProperty('glide.knowman.search_character_limit') || 3);
+	data.allow_empty_search = options.allow_empty_search ? (options.allow_empty_search == 'Use system property' ?  gs.getProperty('glide.knowman.allow_empty_search') == 'true' : options.allow_empty_search == 'Yes') : gs.getProperty('glide.knowman.allow_empty_search') == 'true' || false;
+	options.placeholder = options.placeholder || gs.getMessage('Search (minimum {0} characters)',data.min_search_char+'');
+	data.messages = {};
+	data.messages.MIN_CHARS_REQUIRED = gs.getMessage('Include at least {0} characters in your search query.',data.min_search_char+'');
+	data.messages.searchMsg = gs.getMessage("Search");
+	data.sqa_ui_active = GlidePluginManager.isActive('com.snc.knowledge.social_qa.ui');
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:40:06</sys_created_on>
+        <sys_id>bd8af2632f39f11062655fd62799b6c3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MultiverseNow Knowledge Homepage Search</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_widget_bd8af2632f39f11062655fd62799b6c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:42:11</sys_updated_on>
+        <template><![CDATA[<div class="kb-banner-{{::c.data.instanceid}}">
+  <div class="cm-main-search">
+    <div class="cm-welcome-msg hidden-sm hidden-xs">
+      <h2 ng-bind="::options.title"></h2>
+    </div>
+    <div class="cm-search-box">
+      <div class="banner-search">
+        <form id="kb_home_search_form" ng-submit="c.submitSearch()" class="ng-pristine ng-valid" role="form" _lpchecked="1">
+          <input name="id" value="kb_search" type="hidden"/>
+          <div class="input-group input-group-{{::c.options.size || 'lg'}}" role="presentation">
+            <input name="query" ng-model="c.keyword" type="text" aria-label="${Search}" 
+                   placeholder="{{::options.placeholder}}" class="form-control">
+            <span class="input-group-btn">
+              <button name="search" type="submit" class="btn btn-{{::c.options.color}}"
+                      aria-label="${search}" data-toggle="tooltip" data-placement="bottom" title="{{::c.data.messages.searchMsg}}">
+                <i ng-if="::c.options.glyph" class="fa fa-{{::c.options.glyph}}" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="cm-community-summary hidden-sm hidden-xs">
+      <ul class="list-unstyled">
+        <li class="summary"><span ng-bind="$root.kb_count"></span> ${Knowledge Bases}</li>
+        <li class="summary"><span ng-bind="$root.articles_count"></span> ${Articles}</li>
+        <li class="summary" ng-if="c.data.sqa_ui_active"><span ng-bind="$root.socialqa_count"></span> ${Q&amp;A}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<style>
+  @media screen and (max-width: 992px){
+    .kb-banner-{{::c.data.instanceid}} .cm-main-search{
+      height: inherit;
+      margin:0 -2.5rem;
+    }
+    .kb-banner-{{::c.data.instanceid}} .cm-search-box{
+      width:100%;
+      padding:2rem;
+    }
+  }
+  @media screen and (max-width: 640px){
+    .kb-banner-{{::c.data.instanceid}} .cm-main-search{
+      margin:0 -1.5rem;
+    }
+  }
+</style>]]></template>
+    </sp_widget>
+</record_update>

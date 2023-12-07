@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$grid-gutter-width: 15px !default;</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="index_mvn">2327e00f2f71311062655fd62799b66e</homepage>
+        <icon>119fd2795bd56300a9ad49ed5a62bc40</icon>
+        <kb_knowledge_base display_value="MultiverseNow">de781c872f31311062655fd62799b62e</kb_knowledge_base>
+        <kb_knowledge_page display_value="mvn_kb_home">48e5bee72ff5f11062655fd62799b652</kb_knowledge_page>
+        <login_page display_value="mvn_landing">21eb52632f75f11062655fd62799b6a6</login_page>
+        <logo>76ab92395bd56300a9ad49ed5a62bc9e</logo>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config>[{&#13;
+	"tagline": {&#13;
+		"table" : "sp_instance",&#13;
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",&#13;
+		"field" : "title"&#13;
+	},&#13;
+	"hero_background": {&#13;
+		"table" : "sp_container",&#13;
+		"sys_id" : "be98a8d2cb20020000f8d856634c9c63",&#13;
+		"field" : "background_image"&#13;
+	},&#13;
+	"readonly_variable_editor": "false"&#13;
+}]</quick_start_config>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sc_catalog_page display_value="mvn_c_category">94fd340b2f35311062655fd62799b69c</sc_catalog_page>
+        <sc_category_page display_value="mvn_c_category">94fd340b2f35311062655fd62799b69c</sc_category_page>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="mvn_header_menu">1e07344f2ff1311062655fd62799b60d</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 18:33:52</sys_created_on>
+        <sys_id>07e52c8b2f71311062655fd62799b63d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>MultiverseNow Portal </sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_portal_07e52c8b2f71311062655fd62799b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 23:08:45</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>MultiverseNow Portal </title>
+        <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>
+        <url_suffix>multiversenow</url_suffix>
+        <user_registration_config display_value="MultiverseNow User">a379da2b2f35f11062655fd62799b69b</user_registration_config>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=07e52c8b2f71311062655fd62799b63d"/>
+</record_update>

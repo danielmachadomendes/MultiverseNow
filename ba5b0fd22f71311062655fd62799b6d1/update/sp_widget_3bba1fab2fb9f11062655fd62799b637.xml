@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.$on("$destroy", function () {
+		$('.kb_user_subs_pref').remove();
+  });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>mvn_kb_notification_entry</id>
+        <internal>false</internal>
+        <link><![CDATA[function(scope) {
+	if(scope.data.show_menu_entry && !$('.kb_user_subs_pref')[0] && $("a[ng-href*='id=actsub_notif_pref']").length ==0) {
+		$('#sp-nav-bar ul li.hidden-xs.dropdown ul.dropdown-menu li:first').after('<li class="kb_user_subs_pref"><a role="link" href="?id=actsub_notif_pref&sysparm_domain_restore=false&sysparm_stack=no">${Notification Settings}</a></li>');
+		$('#sp-nav-bar ul li.visible-xs-block:first').after('<li class="visible-xs-block kb_user_subs_pref"><a role="link" href="?id=actsub_notif_pref&sysparm_domain_restore=false&sysparm_stack=no">${Notification Settings}</a></li>');
+	}
+}]]></link>
+        <name>MultiverseNow Knowledge Notification</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if(input)
+		return;
+	else {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.show_menu_entry = false;
+	data.portal_suffix = $sp.getPortalRecord().getValue('url_suffix');
+	data.redirect_url_property = gs.getProperty('sn_km_portal.glide.knowman.serviceportal.portal_url');
+	data.knowledge_advanced_enabled = GlidePluginManager.isActive("com.snc.knowledge_advanced");
+	data.show_menu_entry = ((data.redirect_url_property == data.portal_suffix) || (data.portal_suffix == 'sp')) && data.knowledge_advanced_enabled;
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 21:00:52</sys_created_on>
+        <sys_id>3bba1fab2fb9f11062655fd62799b637</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MultiverseNow Knowledge Notification</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_widget_3bba1fab2fb9f11062655fd62799b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 21:01:36</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+</div>]]></template>
+    </sp_widget>
+</record_update>

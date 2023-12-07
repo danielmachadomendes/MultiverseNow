@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e848df962ff1311062655fd62799b6ef" label="Races" max_length="40" name="x_903520_rpg_races" type="collection">
+        <element label="Additional Characteristics" max_length="1024" name="additional_characteristics" reference="x_903520_rpg_additional_characteristics" type="glide_list"/>
+        <element label="Add. Cha." max_length="3" name="additional_charisma" type="integer"/>
+        <element label="Add. Con." max_length="3" name="additional_constitution" type="integer"/>
+        <element label="Add. Dex." max_length="3" name="additional_dexterity" type="integer"/>
+        <element label="Add. Int." max_length="3" name="additional_intelligence" type="integer"/>
+        <element label="Add. Speed" max_length="3" name="additional_speed" type="string"/>
+        <element label="Add. Stat." max_length="3" name="additional_statistic" type="integer"/>
+        <element label="Add. Str." max_length="3" name="additional_strength" type="integer"/>
+        <element label="Add. Wis." max_length="3" name="additional_wisdom" type="integer"/>
+        <element label="Add. Wis." max_length="3" name="add_wis" type="string"/>
+        <element label="Can climb" max_length="40" name="can_climb" type="boolean"/>
+        <element label="Can fly" max_length="40" name="can_fly" type="boolean"/>
+        <element label="Can swim" max_length="40" name="can_swim" type="boolean"/>
+        <element label="Description" max_length="1024" name="description" type="string_full_utf8"/>
+        <element calculation="if (current.race.nil() &amp;&amp; current.subrace.nil() &amp;&amp; !current.full_race.nil()) {&#10;  var names = current.full_race.toString().split(&quot; &quot;);&#10;  if (names.length &gt; 1) {&#10;    current.subrace = names[0];&#10;    names.shift();&#10;    current.race = names.join(&quot; &quot;);&#10;  } else &#10;    current.race = names[0];&#10;}  &#10;&#10;if(current.subrace.nil()) { &#10;    current.race; &#10;  } else { &#10;    current.subrace + ' ' + current.race;&#10;  }" display="true" label="Full Race" max_length="1024" name="full_race" read_only="true" type="string" virtual="true"/>
+        <element label="Height" max_length="3" name="height" type="integer"/>
+        <element label="Languages" max_length="1024" name="languages" reference="x_903520_rpg_languages" type="glide_list"/>
+        <element label="Race" mandatory="true" max_length="32" name="race" type="string"/>
+        <element label="Size" max_length="3" name="size" type="integer"/>
+        <element label="Source" max_length="32" name="source" reference="x_903520_rpg_role_playing_game_sources" type="reference"/>
+        <element label="Source Description" max_length="1024" name="source_description" type="string"/>
+        <element label="Speed" max_length="3" name="speed" type="integer"/>
+        <element label="Subrace" max_length="32" name="subrace" type="string"/>
+        <element label="Weight" max_length="40" name="weight" type="integer"/>
+        <index name="index">
+            <element name="source"/>
+        </index>
+    </element>
+</database>

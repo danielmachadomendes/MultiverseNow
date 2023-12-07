@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>fixed-facet-container</class_name>
+        <container_class_name>kb-fixed-facet-column</container_class_name>
+        <name>MultiverseNow Knowledge Search - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="copy_of_kb_search_1">aa06fee72ff5f11062655fd62799b647</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:29</sys_created_on>
+        <sys_id>e6063a2b2ff5f11062655fd62799b61e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MultiverseNow Knowledge Search - Container 2</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_container_e6063a2b2ff5f11062655fd62799b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:54</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</application>
+        <file_path/>
+        <instance_id>13e69defdb22ddd842b321c4059619e0</instance_id>
+        <instance_name>dev141910</instance_name>
+        <name>sp_container_e6063a2b2ff5f11062655fd62799b61e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>fixed-facet-container</class_name><container_class_name>kb-fixed-facet-column</container_class_name><name>MultiverseNow Knowledge Search - Container 2</name><order>2</order><sp_page display_value="copy_of_kb_search_1">aa06fee72ff5f11062655fd62799b647</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-16 18:20:29</sys_created_on><sys_id>e6063a2b2ff5f11062655fd62799b61e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>MultiverseNow Knowledge Search - Container 2</sys_name><sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package><sys_policy/><sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope><sys_update_name>sp_container_e6063a2b2ff5f11062655fd62799b61e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-16 18:20:54</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1880750596</payload_hash>
+        <record_name>MultiverseNow Knowledge Search - Container 2</record_name>
+        <reverted_from/>
+        <source>7e5b0fd22f71311062655fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:54</sys_created_on>
+        <sys_id>6c26bee72ff5f11062655fd62799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b39b82fb90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:54</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2426bee75bf5f110b2dccd7d3661f689</update_guid>
+        <update_guid_history>2426bee75bf5f110b2dccd7d3661f689:1880750596,2a063a2bbcf5f110ce8e1c419b62d81f:-1075192316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MultiverseNow Knowledge Search - Container 2">5b4676ab2ff5f11062655fd62799b6e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:21:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>18f7b4b5c71d4c00839548fae6fd8400</sys_id>
+        <sys_metadata>e6063a2b2ff5f11062655fd62799b61e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MultiverseNow Knowledge Search - Container 2</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_scope_delete display_value="">9430b02c5a5e44e69daf0c2ab3fbef51</sys_scope_delete>
+        <sys_update_name>sp_container_e6063a2b2ff5f11062655fd62799b61e</sys_update_name>
+        <sys_update_version display_value="sp_container_e6063a2b2ff5f11062655fd62799b61e">6c26bee72ff5f11062655fd62799b689</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

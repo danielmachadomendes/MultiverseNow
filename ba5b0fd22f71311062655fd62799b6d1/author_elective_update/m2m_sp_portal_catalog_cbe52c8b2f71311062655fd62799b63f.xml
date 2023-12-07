@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sp_portal display_value="MultiverseNow Portal ">07e52c8b2f71311062655fd62799b63d</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 18:33:52</sys_created_on>
+        <sys_id>cbe52c8b2f71311062655fd62799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.MultiverseNow Portal</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_cbe52c8b2f71311062655fd62799b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 18:33:52</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</application>
+        <file_path/>
+        <instance_id>13e69defdb22ddd842b321c4059619e0</instance_id>
+        <instance_name>dev141910</instance_name>
+        <name>m2m_sp_portal_catalog_cbe52c8b2f71311062655fd62799b63f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sp_portal display_value="MultiverseNow Portal ">07e52c8b2f71311062655fd62799b63d</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-14 18:33:52</sys_created_on><sys_id>cbe52c8b2f71311062655fd62799b63f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.MultiverseNow Portal</sys_name><sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package><sys_policy/><sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope><sys_update_name>m2m_sp_portal_catalog_cbe52c8b2f71311062655fd62799b63f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-14 18:33:52</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>-34701858</payload_hash>
+        <record_name>Service Catalog.MultiverseNow Portal</record_name>
+        <reverted_from/>
+        <source>0e5626322f33211062655fd62799b6fb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-06 23:10:53</sys_created_on>
+        <sys_id>6176a8cb2f71311062655fd62799b6f2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1892d7904480000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Portal Catalog</type>
+        <update_guid>2176a8cbe57131107a00cf1054fb89f2</update_guid>
+        <update_guid_history>2176a8cbe57131107a00cf1054fb89f2:-34701858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.MultiverseNow Portal">f976a8cb2f71311062655fd62799b6f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 18:36:14</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>dee9294c1dc843458e0e3c7b2cea85d1</sys_id>
+        <sys_metadata>cbe52c8b2f71311062655fd62799b63f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.MultiverseNow Portal</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_scope_delete display_value="">9430b02c5a5e44e69daf0c2ab3fbef51</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_cbe52c8b2f71311062655fd62799b63f</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_cbe52c8b2f71311062655fd62799b63f">6176a8cb2f71311062655fd62799b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 18:36:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

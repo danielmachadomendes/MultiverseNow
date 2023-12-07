@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css>section.page{&#13;
+  padding-top: 0;&#13;
+}main.body {&#13;
+  padding-top: 1rem;&#13;
+}&#13;
+input[type=checkbox]{&#13;
+ height:inherit;&#13;
+ }&#13;
+.noPadding {&#13;
+    padding-left: 0px !important;&#13;
+    padding-right: 0px !important;&#13;
+}&#13;
+a {&#13;
+  color : $brand-primary-darker;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_kb_search_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script display_value="SPSEOHeaderTagsArticleSearch">6e4e993ffd8e7010f877d787532be907</seo_script>
+        <short_description>Knowledge Search</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:29</sys_created_on>
+        <sys_id>aa06fee72ff5f11062655fd62799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_kb_search_1</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_update_name>sp_page_aa06fee72ff5f11062655fd62799b647</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:29</sys_updated_on>
+        <title>Copy of Knowledge Search (1)</title>
+        <use_seo_script>true</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=aa06fee72ff5f11062655fd62799b647"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</application>
+        <file_path/>
+        <instance_id>13e69defdb22ddd842b321c4059619e0</instance_id>
+        <instance_name>dev141910</instance_name>
+        <name>sp_page_aa06fee72ff5f11062655fd62799b647</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>section.page{&#13;
+  padding-top: 0;&#13;
+}main.body {&#13;
+  padding-top: 1rem;&#13;
+}&#13;
+input[type=checkbox]{&#13;
+ height:inherit;&#13;
+ }&#13;
+.noPadding {&#13;
+    padding-left: 0px !important;&#13;
+    padding-right: 0px !important;&#13;
+}&#13;
+a {&#13;
+  color : $brand-primary-darker;&#13;
+}</css><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>copy_of_kb_search_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles>snc_external,snc_internal</roles><seo_script display_value="SPSEOHeaderTagsArticleSearch">6e4e993ffd8e7010f877d787532be907</seo_script><short_description>Knowledge Search</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-16 18:20:29</sys_created_on><sys_id>aa06fee72ff5f11062655fd62799b647</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_kb_search_1</sys_name><sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package><sys_policy/><sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope><sys_update_name>sp_page_aa06fee72ff5f11062655fd62799b647</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-16 18:20:29</sys_updated_on><title>Copy of Knowledge Search (1)</title><use_seo_script>true</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=aa06fee72ff5f11062655fd62799b647"/></record_update>]]></payload>
+        <payload_hash>-328302645</payload_hash>
+        <record_name>copy_of_kb_search_1</record_name>
+        <reverted_from/>
+        <source>7e5b0fd22f71311062655fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:20:29</sys_created_on>
+        <sys_id>2206fee72ff5f11062655fd62799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b39b7ce8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:20:29</sys_updated_on>
+        <type>Page</type>
+        <update_guid>6606fee79ef5f110570b77a05d63a349</update_guid>
+        <update_guid_history>6606fee79ef5f110570b77a05d63a349:-328302645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_kb_search_1">534676ab2ff5f11062655fd62799b6ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:21:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>3631ab731a89469da8a24136280f9d29</sys_id>
+        <sys_metadata>aa06fee72ff5f11062655fd62799b647</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_kb_search_1</sys_name>
+        <sys_package display_value="MultiverseNow" source="x_903520_rpg">ba5b0fd22f71311062655fd62799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MultiverseNow">ba5b0fd22f71311062655fd62799b6d1</sys_scope>
+        <sys_scope_delete display_value="">9430b02c5a5e44e69daf0c2ab3fbef51</sys_scope_delete>
+        <sys_update_name>sp_page_aa06fee72ff5f11062655fd62799b647</sys_update_name>
+        <sys_update_version display_value="sp_page_aa06fee72ff5f11062655fd62799b647">2206fee72ff5f11062655fd62799b64a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

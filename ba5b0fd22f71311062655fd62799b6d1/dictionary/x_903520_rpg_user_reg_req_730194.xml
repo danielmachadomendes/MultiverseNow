@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d50a9e2b2f35f11062655fd62799b657" extends="sys_user_registration_request" label="Rpg User Reg Req 730194" max_length="40" name="x_903520_rpg_user_reg_req_730194" type="collection"/>
+</database>

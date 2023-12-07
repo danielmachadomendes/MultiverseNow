@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9095f5a2ff1311062655fd62799b621" label="Languages" max_length="40" name="x_903520_rpg_languages" type="collection">
+        <element label="Comment" max_length="1024" name="comment" type="string"/>
+        <element label="Description" max_length="1024" name="description" type="string_full_utf8"/>
+        <element display="true" label="Language" mandatory="true" max_length="20" name="language" type="string"/>
+        <element label="Script" max_length="20" name="script" type="string"/>
+        <element label="Speakers" max_length="32" name="speakers" reference="x_903520_rpg_races" type="glide_list"/>
+        <element label="Type" max_length="32" name="type" type="string"/>
+    </element>
+</database>

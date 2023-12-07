@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="36ec04d62f46311062655fd62799b6da" extends="sys_import_set_row" label="Imp Tmpl X 903520 Rpg Races" max_length="40" name="u_imp_tmpl_x_903520_rpg_races" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Cha." label="Add. Cha." max_length="1" name="u_add__cha_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Con." label="Add. Con." max_length="1" name="u_add__con_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Dex." label="Add. Dex." max_length="1" name="u_add__dex_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Int." label="Add. Int." max_length="1" name="u_add__int_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Speed" label="Add. Speed" max_length="40" name="u_add__speed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Stat." label="Add. Stat." max_length="40" name="u_add__stat_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Str." label="Add. Str." max_length="1" name="u_add__str_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add. Wis." label="Add. Wis." max_length="1" name="u_add__wis_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="1024" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height" label="Height" max_length="3" name="u_height" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Languages" label="Languages" max_length="32" name="u_languages" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Race" label="Race" max_length="32" name="u_race" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Size" label="Size" max_length="40" name="u_size" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source" label="Source" max_length="32" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SourceDescription" label="SourceDescription" max_length="40" name="u_sourcedescription" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Subrace" label="Subrace" max_length="32" name="u_subrace" type="string"/>
+        <element attributes="import_attribute_name=Walking Speed" label="Walking Speed" max_length="40" name="u_walking_speed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Weight" label="Weight" max_length="40" name="u_weight" type="string"/>
+    </element>
+</database>
